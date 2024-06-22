@@ -1,0 +1,20 @@
+body{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.box {
+    position: relative;
+    border: #4e7bcc 2px solid; /*境界線の指定*/
+    width: 400px;
+    height: 700px;
+    padding:10px;
+    text-align: center;
+    }
+.box p {
+    position: relative;
+    text-align: center;
+    margin:0;
+    padding:0;
+    }
