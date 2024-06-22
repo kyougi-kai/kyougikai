@@ -1,10 +1,10 @@
-package com.logintest.login;
+package com.login.nlogintest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LoginApplicationTests {
+class NlogintestApplicationTests {
 
 	@Test
 	void contextLoads() {
