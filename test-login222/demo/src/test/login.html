@@ -11,10 +11,11 @@
     <div class="all">
     <label for="name">ユーザーネームを入力してくさい。</label>
     <form action="" method="post">
-    <input type="text" id="name" name="name" maxlength="12" size="80">
-    <a href="password.html" class="btn_02" >次へ</a>
+    <input type="text" id="name" name="name" maxlength="12" size="80"oninput="checkname()">
+    <a href="password.html" class="btn_02" id="button">次へ</a>
     <a href="sinki.html"class="make">アカウントを作成</a>
     </form></div>
 </form>
+<script src="login.js"></script>
 </body>
 </html>

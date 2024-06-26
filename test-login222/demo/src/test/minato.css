@@ -34,20 +34,17 @@ input{
    height: 20px;
    margin: 10px;
 }
-a.btn_02 {
+.btn_02 {
   display: block;
 	text-decoration: none;
   text-align: center;
   width: 80px;
   margin: 10px auto 10px auto;
   border-radius: 5px;
-	background: #006eff;
+	background: rgb(179, 224, 255);
 	color: #ffffff;
 	transition: 0.5s;
-}
-a.btn_02:hover {
-	color: #fff;
-	background: #0014c9;
+  pointer-events: none;
 }
 .make{
   color: #0014c9;

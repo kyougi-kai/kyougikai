@@ -9,10 +9,11 @@ function pushHideButton() {
       btnEye.className = "fa fa-eye-slash";
     }
   }
-  function checkpass() {
+  function check() {
+    const name = document.getElementById("name");
     const pass = document.getElementById("textPassword");
 
-    if(pass.value && pass.value.length) {
+    if(name.value && name.value.length && pass.value && pass.value.length) {
       if(pass.value.length >= 8){
         button.style.pointerEvents = "auto";
         document.getElementById('button').style.backgroundColor = '#006eff';
