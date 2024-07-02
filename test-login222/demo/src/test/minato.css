@@ -45,6 +45,7 @@ input{
 	color: #ffffff;
 	transition: 0.5s;
   pointer-events: none;
+  border: none;
 }
 .make{
   color: #0014c9;

@@ -9,13 +9,40 @@
 <body>
     <p>ログインテスト</p>
     <div class="all">
-    <label for="name">ユーザーネームを入力してくさい。</label>
-    <form action="" method="post">
-    <input type="text" id="name" name="name" maxlength="12" size="80"oninput="checkname()">
-    <a href="password.html" class="btn_02" id="button">次へ</a>
+    <label for="name">ユーザーネームを入力してくさい。<br>(半角英数字、最大12文字)</label>
+    <form action="password.html" method="">
+    <input type="text" id="name" name="name" maxlength="12" size="80" pattern="^[0-9A-Za-z]+$" oninput="checkname()">
+    <button class="btn_02" id="button"type="submit">次へ</button>
     <a href="sinki.html"class="make">アカウントを作成</a>
     </form></div>
 </form>
 <script src="login.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
