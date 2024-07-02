@@ -11,19 +11,19 @@
 <body>
     <p>ログインテスト(新規登録)</p>
     <div class="all2">
-    <label for="name">ユーザーネームを入力してくさい。</label>
+    <label for="name">ユーザーネームを入力してくさい。<br>(半角英数字最大12文字)</label>
     <form action="" method="post">
     <input type="text" id="name" name="name" maxlength="12" size="80"oninput="check()">
     <br>
+    </form>
     <label for="name">パスワードを入力してくさい。
-    <br>(半角アルファベット、数字、記号を組み合わせて<br>8～12文字のパスワードを作成します)</label>
-    <form action="" method="post"id="fieldPassword">
+    <br>(半角英数字8～12文字のパスワードを作成します)</label>
+    <form action="login.html" method=""id="fieldPassword">
     <div id="inputBox">
     <input type="password" id="textPassword" name="pass" minlength="8" maxlength="12" size="80"oninput="check()">
     <span id="buttonEye" class="fa fa-eye" onclick="pushHideButton()"></span>
     </div>
-    </form>
-    <a href="login.html" class="btn_02"id="button">作成</a>
+    <button class="btn_02" id="button"type="submit">作成</button>
     </form></div>
     <script src="sinki.js"></script>
 </body>
