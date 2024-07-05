@@ -12,20 +12,12 @@ p {
 .all {
   border: solid 0.1px black;
   width: 300px;
-  height: 150px;
+  height: 250px;
   margin: 50px auto 0;
   padding: 20px;
 }
 
 .all1 {
-  border: solid 0.1px black;
-  width: 300px;
-  height: 130px;
-  margin: 50px auto 0;
-  padding: 20px;
-}
-
-.all2 {
   border: solid 0.1px black;
   width: 400px;
   height: 230px;
