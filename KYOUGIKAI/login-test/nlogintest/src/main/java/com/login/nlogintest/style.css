@@ -1,20 +1,26 @@
 body{
     position: relative;
-    top: 200px;
+    top: 150px;
     text-align: center;
+    box-align: center;
     color: rgb(0, 0, 0);
 }
 .box {
-    position: relative;
     border: #4e7bcc 2px solid; /*境界線の指定*/
-    width: 400px;
-    height: 700px;
     padding:10px;
-    text-align: center;
+    left: auto;
+   
     }
 .box p {
-    position: relative;
-    text-align: center;
     margin:0;
     padding:0;
     }
+#button3{
+    text-align: center;
+    position: relative;
+   
+}
+#button2{
+    position: relative;
+    text-align: center;
+}
