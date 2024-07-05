@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <link rel="stylesheet" href="minato.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <p>ログインテスト</p>
     <div class="all">
-    <label for="name">ユーザーネームを入力してくさい。<br>(半角英数字、最大12文字)</label>
-    <form action="password.html" method=""id="formname">
-    <input type="text" id="name" name="name" maxlength="12" size="80" pattern="^[0-9A-Za-z]+$" oninput="checkname()">
-    <button class="btn_02" id="button"type="submit">次へ</button>
-    <a href="sinki.html"class="make">アカウントを作成</a>
-    </form></div>
-<script src="login.js"></script>
+        <label for="name">ユーザーネームを入力してくさい。<br>(半角英数字、最大12文字)</label>
+        <form action="password.html" method="" id="formname">
+            <input type="text" id="name" name="name" maxlength="12" size="80" pattern="^[0-9A-Za-z]+$"
+                oninput="checkname()">
+            <button class="btn_02" id="button" type="submit">次へ</button>
+            <a href="sinki.html" class="make">アカウントを作成</a>
+        </form>
+    </div>
+    <script src="login.js"></script>
 </body>
+
 </html>
