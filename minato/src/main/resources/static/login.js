@@ -3,10 +3,10 @@ function pushHideButton() {
   var btnEye = document.getElementById("buttonEye");
   if (txtPass.type === "text") {
     txtPass.type = "password";
-    btnEye.className = "fa fa-eye";
+    btnEye.className = "fa fa-eye-slash";
   } else {
     txtPass.type = "text";
-    btnEye.className = "fa fa-eye-slash";
+    btnEye.className = "fa fa-eye";
   }
 }
 function check() {
