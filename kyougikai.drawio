@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T08:18:41.208Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="65mTLqAYss_RFGDPvS8j" version="24.4.13" type="device">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="ページ1" id="dh2QZhzZqzziUDRQoIfL">
-    <mxGraphModel dx="3695" dy="1476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2901" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -283,37 +283,37 @@
         <mxCell id="u0NW_Edgaun57FOAjR7u-13" value="問題の追加" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1710" y="1510" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MXCraOA-L31aTorZ6j8u-14" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="MXCraOA-L31aTorZ6j8u-14" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="2140" width="1800" height="1250" as="geometry" />
         </mxCell>
-        <mxCell id="MXCraOA-L31aTorZ6j8u-4" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="MXCraOA-L31aTorZ6j8u-14">
+        <mxCell id="MXCraOA-L31aTorZ6j8u-4" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="MXCraOA-L31aTorZ6j8u-14" vertex="1">
           <mxGeometry width="1800" height="1250" as="geometry" />
         </mxCell>
-        <mxCell id="MXCraOA-L31aTorZ6j8u-5" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="MXCraOA-L31aTorZ6j8u-14">
+        <mxCell id="MXCraOA-L31aTorZ6j8u-5" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="MXCraOA-L31aTorZ6j8u-14" vertex="1">
           <mxGeometry width="1800" height="312.5" as="geometry" />
         </mxCell>
-        <mxCell id="MXCraOA-L31aTorZ6j8u-6" value="ロゴ" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="MXCraOA-L31aTorZ6j8u-14">
+        <mxCell id="MXCraOA-L31aTorZ6j8u-6" value="ロゴ" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="MXCraOA-L31aTorZ6j8u-14" vertex="1">
           <mxGeometry width="964.2857142857142" height="312.5" as="geometry" />
         </mxCell>
-        <mxCell id="MXCraOA-L31aTorZ6j8u-7" value="設定" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="MXCraOA-L31aTorZ6j8u-14">
+        <mxCell id="MXCraOA-L31aTorZ6j8u-7" value="設定" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="MXCraOA-L31aTorZ6j8u-14" vertex="1">
           <mxGeometry x="1242.857142857143" width="278.57142857142856" height="312.5" as="geometry" />
         </mxCell>
-        <mxCell id="MXCraOA-L31aTorZ6j8u-8" value="カレンダー" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="MXCraOA-L31aTorZ6j8u-14">
+        <mxCell id="MXCraOA-L31aTorZ6j8u-8" value="カレンダー" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="MXCraOA-L31aTorZ6j8u-14" vertex="1">
           <mxGeometry x="964.2857142857142" width="278.57142857142856" height="312.5" as="geometry" />
         </mxCell>
-        <mxCell id="MXCraOA-L31aTorZ6j8u-9" value="アカウント" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="MXCraOA-L31aTorZ6j8u-14">
+        <mxCell id="MXCraOA-L31aTorZ6j8u-9" value="アカウント" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="MXCraOA-L31aTorZ6j8u-14" vertex="1">
           <mxGeometry x="1521.4285714285713" width="278.57142857142856" height="312.5" as="geometry" />
         </mxCell>
-        <mxCell id="MXCraOA-L31aTorZ6j8u-10" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;計測ボタン&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="MXCraOA-L31aTorZ6j8u-14">
+        <mxCell id="MXCraOA-L31aTorZ6j8u-10" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;計測ボタン&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="MXCraOA-L31aTorZ6j8u-14" vertex="1">
           <mxGeometry x="1521.4285714285713" y="708.3333333333333" width="192.85714285714283" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="MXCraOA-L31aTorZ6j8u-11" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="MXCraOA-L31aTorZ6j8u-14">
+        <mxCell id="MXCraOA-L31aTorZ6j8u-11" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="MXCraOA-L31aTorZ6j8u-14" vertex="1">
           <mxGeometry x="85.71428571428571" y="395.83333333333337" width="1264.2857142857142" height="562.5" as="geometry" />
         </mxCell>
-        <mxCell id="MXCraOA-L31aTorZ6j8u-12" value="学習開始のボタン" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="MXCraOA-L31aTorZ6j8u-14">
+        <mxCell id="MXCraOA-L31aTorZ6j8u-12" value="学習開始のボタン" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="MXCraOA-L31aTorZ6j8u-14" vertex="1">
           <mxGeometry x="525" y="1041.6666666666667" width="385.71428571428567" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="MXCraOA-L31aTorZ6j8u-13" value="&lt;div&gt;用語計算&lt;/div&gt;&lt;div&gt;データベース&lt;/div&gt;&lt;div&gt;表計算&lt;/div&gt;&lt;div&gt;アルゴリズム&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="MXCraOA-L31aTorZ6j8u-14">
+        <mxCell id="MXCraOA-L31aTorZ6j8u-13" value="&lt;div&gt;用語計算&lt;/div&gt;&lt;div&gt;データベース&lt;/div&gt;&lt;div&gt;表計算&lt;/div&gt;&lt;div&gt;アルゴリズム&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="MXCraOA-L31aTorZ6j8u-14" vertex="1">
           <mxGeometry x="1521.4285714285713" y="395.83333333333337" width="192.85714285714283" height="250" as="geometry" />
         </mxCell>
       </root>
