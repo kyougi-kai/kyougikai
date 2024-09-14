@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .sheader {
+            display: block;
+            background-color: #B1E4E8;
+            border-bottom: 2px solid;
+            height: 20px;
+        }
+
+        .block {
+            display: flex;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 5%;
+            background-color: #ffffff;
+            height: 100%;
+        }
+
+        .header {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border-bottom: 3px solid;
+        }
+
+        .home {
+            position: relative;
+            background: linear-gradient(to bottom right, #a0dcff, #286cba);
+            padding: 5%;
+            border: 7px solid #B1E4E8;
+            width: 200%;
+            height: 70%;
+        }
+
+        .home::before {
+            content: "";
+            position: absolute;
+            border: solid 2px;
+            top: 0.01px;
+            left: 0.01px;
+            bottom: 0.01px;
+            right: 0.01px;
+        }
+
+        .home::after {
+            content: "";
+            position: absolute;
+            border: solid 2px;
+            top: -8px;
+            left: -8px;
+            bottom: -8px;
+            right: -8px;
+        }
+
+        .homeheader {
+            text-align: left;
+            color: #00bfff;
+            font-size: 300%;
+            font-weight: bold;
+            text-decoration: underline;
+            margin-bottom: 1%;
+        }
+
+        .section {
+            display: inline-block;
+            width: 30%;
+            vertical-align: top;
+            margin-right: 3%;
+        }
+
+        .section:last-child {
+            margin-right: 0;
+        }
+
+        .section h3 {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            margin: 0;
+            font-size: 200%;
+        }
+
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .section ul li {
+            margin: 5% 5%;
+            font-size: 150%;
+        }
+
+        .section ul li input {
+            margin-right: 10px;
+        }
+
+        .mode {
+            border: 7px solid #B1E4E8;
+            position: relative;
+            margin-left: 40%;
+            margin-top: 5%;
+            width: 40%;
+            height: 90%;
+        }
+
+        .mode::before {
+            content: "";
+            position: absolute;
+            border: solid 2px;
+            top: 0.01px;
+            left: 0.01px;
+            bottom: 0.01px;
+            right: 0.01px;
+        }
+
+        .mode::after {
+            content: "";
+            position: absolute;
+            border: solid 2px;
+            top: -8px;
+            left: -8px;
+            bottom: -8px;
+            right: -8px;
+        }
+
+        .modeheader {
+            background-color: #cfe8e8;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 200%;
+            height: 15%;
+            border: solid 2px;
+        }
+
+        .section1 {
+            padding: 15px;
+            background-color: #ffffff;
+            height: 15%;
+        }
+
+        .content {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+
+        .gap {
+            background-color: #B1E4E8;
+            border: solid 1px;
+            height: ;
+        }
+
+        .footer {
+            background-color: #B1E4E8;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 6%;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="競技会ロゴ.PNG" width="50%">
+        <div style="border-left: 3px solid;">
+        </div>
+    </div>
+    <div class="sheader"></div>
+    <div style="background-color: #f2f2f2;height:50%;">
+        <div class="block">
+            <div class="select">
+                <div class="homeheader">HOME</div>
+                <div class="home">
+                    <div class="section">
+                        <h3>TYPE</h3>
+                        <ul>
+                            <li><input type="radio" name="type"> 用語・計算</li>
+                            <li><input type="radio" name="type"> データベース</li>
+                            <li><input type="radio" name="type"> 表計算</li>
+                            <li><input type="radio" name="type"> アルゴリズム</li>
+                        </ul>
+                    </div>
+                    <div class="section">
+                        <h3>CUSTOM</h3>
+                        <ul>
+                            <li><input type="radio" name="custom"> 問題数</li>
+                            <li><input type=""></li>
+                            <li><input type="radio" name="custom"> タイマー</li>
+                            <li><input type=""></li>
+                        </ul>
+                    </div>
+                    <div class="section">
+                        <h3>MODESELECT</h3>
+                        <ul>
+                            <li><input type="radio" name="mode"> 四択一答</li>
+                            <li><input type="radio" name="mode"> 一問一答</li>
+                            <li><input type="radio" name="mode"> 不正解モード</li>
+                            <li><input type=""></li>
+                            <li><input type="checkbox"> オリジナル問題を含める</li>
+                            <li><input type="checkbox"> 過去問を含める</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="mode">
+                <div class="modeheader">
+                    <div style="display: flex; justify-content: center;">MODE</div>
+                </div>
+                <div class="section1">用語・計算</div>
+                <div class=" gap"></div>
+                <div class="section1">データベース</div>
+                <div class=" gap"></div>
+                <div class="section1">表計算</div>
+                <div class=" gap"></div>
+                <div class="section1">アルゴリズム</div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+
+</body>
+
+</html>
