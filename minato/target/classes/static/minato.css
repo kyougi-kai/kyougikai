@@ -1,0 +1,52 @@
+body {
+  user-select: none;
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  font-size: 300%;
+  margin: 5%;
+  text-align: center;
+}
+
+.all {
+  border: solid 0.1px black;
+  width: 25%;
+  margin: 5% auto 0;
+  padding: 2%;
+}
+
+.all1 {
+  border: solid 0.1px black;
+  width: 30%;
+  height: 30%;
+  margin: 1% auto 0;
+  padding: 2%;
+}
+
+input {
+  font-size: 100%;
+  width: 60%;
+  height: 2%;
+  margin: 5%;
+}
+
+.btn_02 {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  width: 25%;
+  margin: 2% auto 2% auto;
+  border-radius: 5px;
+  background: rgb(179, 224, 255);
+  color: #ffffff;
+  transition: 0.5s;
+  pointer-events: none;
+  border: none;
+}
+
+.make {
+  color: #0014c9;
+  text-decoration: none;
+}
