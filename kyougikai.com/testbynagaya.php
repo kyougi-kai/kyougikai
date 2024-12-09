@@ -15,6 +15,13 @@ mysqli_set_charset($link,"utf8");
 $result = mysqli_query($link, "SELECT * FROM question");
 $result = $result->fetch_all(MYSQLI_ASSOC);
 
+foreach((array)$result as $value){
+    echo implode($value);
+    echo '<p>____________________________</p>';
+}
+
+unset($value);
+
 echo $result[0]["種別"];
 $img_src = base64_encode($result[0]["画像"]);
 echo '<img src="data:image/jpeg;base64,' . $img_src . '" alt="BLOB Image"width="300" height="200" />';
