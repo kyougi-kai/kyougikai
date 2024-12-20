@@ -1,52 +1,295 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <title>Document</title>
+    <title>競技会ドットコム</title>
 </head>
     <style>
+        /*↓パソコンの時*/
+        @media screen and (min-width: 576px) {
+            .logo {
+                width:360px;
+                user-select: none;
+            }
 
-        .img {
-            margin-left: 1%;
-            margin-right: 1%;
+            /* .logo:hover {
+                transition: 1s;
+                -webkit-transform: rotateY(360deg);
+                transform: rotateY(360deg);
+            } */
+
+            .img {
+            margin-right: 5%;
             vertical-align: bottom;
             width: 45px;
+            user-select: none;
+            }
+
+            a:hover {
+                text-decoration: none;
+            }
+
+            .header {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+
+             .header-background {   
+                border-bottom: 3px solid;
+                border-color: #ccffff;
+                background-color: #efffff;
+                margin-bottom: 2%;
+            }
+
+            .header2 {
+                width: 99%;
+                height: 100%;
+                display: flex;
+                justify-content: right;
+                /* 水平方向の中央寄せ */
+                align-items: center;
+            }
+
+            .select-parent {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                margin: 10px;
+                background-color: #f9ffff;
+                border-radius: 4px;
+            }
+            
+            .caption{
+                color: #4b6666;
+                font-size: 19px;
+                border-radius: 2px;
+                border-bottom: 2px solid;
+                /* text-align: center; */
+                user-select: none;
+                margin: 5px;
+            }
+
+            .question-tab {
+                height: 100px;
+                margin: 10px;
+                border-radius: 10px;
+                font-size: 25px;
+                color: #0b5353;
+                background-color: #f9ffff;
+                display:grid;
+                justify-items: center;
+                align-items: center;
+                user-select: none;
+                white-space: nowrap;
+            }
+
+            .question-tab:hover {
+                transform: scale(1.1,1.1);
+            }
+
+            .check {
+                user-select: none;
+                color: #0b5353;
+                font-size: 20px;
+                margin-left: 0px;
+                padding: 5px;
+                /* border-left: 2px solid;
+                border-color: #ccffff; */
+                display: block;
+            }
+
+            .submit-button {
+                text-align: center;
+            }
+
+            .btn-hover {
+                background-color: #4b6666; 
+                color: #f9ffff;
+                font-weight: bold;
+            }
+
+            .btn-hover:hover {
+                background-color: #719999;
+                color: #f9ffff;
+            }
+
         }
 
-         .header-background {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            border-bottom: 3px solid;
-            background-color: #efffff;
-        }
+        /*↓スマホの時*/
+        @media screen and (max-width:576px) {
+            .logo {
+                width: 200px;
+                user-select: none;
+            }
 
-        .header2 {
-            width: 99%;
-            height: 100%;
-            display: flex;
-            justify-content: right;
-            /* 水平方向の中央寄せ */
-            align-items: center;
+            .img {
+                width: 45px;
+                user-select: none;
+            }
+
+            a:hover {
+                text-decoration: none;
+            }
+            .header {
+                text-align: center;
+            }
+
+             .header-background {   
+                border-bottom: 2px solid;
+                border-color: #ccffff;
+                background-color: #efffff;
+                margin-bottom: 2%;
+            }
+
+            .header2 {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                justify-items: center;
+                align-items: center;
+            }
+
+            .select-parent {
+                margin: 10px;
+                background-color: #f9ffff;
+                border-radius: 4px;
+            }
+
+            .caption{
+                background:#efffff;
+                color: #4b6666;
+                border-radius: 2px;
+                border-bottom: 2px solid;
+            }
+
+            .question-tab {
+                height: 80px;
+                margin: 10px;
+                border-radius: 10px;
+                font-size: 20px;
+                color: #0b5353;
+                background-color: #f9ffff;
+                display:grid;
+                justify-items: center;
+                align-items: center;
+                white-space: nowrap;
+            }
+
+            .question-tab:hover {
+                transform: scale(1.1,1.1);
+            }
+
+            .check {
+                user-select: none;
+                color: #0b5353;
+                font-size: 20px;
+                margin: 0px;
+                padding: 5px;
+                display: block;
+            }
+
+            .submit-button {
+                text-align: center;
+            }
+
+            .btn-hover {
+                background-color: #4b6666; 
+                color: #f9ffff;
+                font-weight: bold;
+            }
+
+            .btn-hover:hover {
+                background-color: #719999;
+                color: #f9ffff;
+            }
         }
 
     </style>
-<body>
-    <div class="header">
-        <img src="img/競技会ロゴ.png" style="width:360px;margin-left: 5%;">
-        <div class="header2">
-            <img src="img/カレンダー.png" class="img">
-            <img src="img/設定.png" class="img">
-            <img src="img/ユーザ.png" class="img" style="margin-right: 5%;">
+<body style="background-color: #fdfdfd;">
+    <div class="header-background">
+        <div class="header">
+            <img src="img/競技会ロゴ.png" class="logo">
+            <div class="header2">
+                <img src="img/カレンダー.png" class="img">
+                <img src="img/ユーザ.png" class="img">
+                <img src="img/設定.png" class="img">
+            </div>
         </div>
     </div>
-    <!-- <div class="container">
+    <div class="container">
         <div class="row">
-          <div class="col-md-3" style="background-color: red;text-align: center;"><img src="img/カレンダー.png" style="margin: 10px;"></img></div>
-            <div class="col-md-6" style="background-color: blue;">b</div>
-            <div class="col-md-3" style="background-color: yellow;">c</div>
-          </div>
-        </div> -->
+            <div class="col-md-8" style="background-color: #efffff;border-radius: 10px;">
+                <div class="caption" style="text-align: center;"><b>出題設定</b></div>
+                <form action="/submit" method="post">
+                    <div class="select-parent">
+                        <div name="type">
+                            <div class="caption">：問題種別</div>
+                            <label for="word-calculate" class="check">
+                                <input type="checkbox" id="word-calculate">
+                                用語・計算
+                            </label>
+                            <label for="database" class="check">
+                                <input type="checkbox" id="database">
+                                データベース
+                            </label>
+                            <label for="excel" class="check">
+                                <input type="checkbox" id="excel">
+                                表計算
+                            </label>
+                            <label for="algorithm" class="check">
+                                <input type="checkbox" id="algorithm">
+                                アルゴリズム
+                            </label>
+                        </div>
+                        <div name="custom">
+                            <div class="caption">：モード設定</div>
+                            <label for="number" class="check">
+                                <input type="checkbox" id="number">
+                                問題数調整
+                            </label>
+                            <label for="timer" class="check">
+                                <input type="checkbox" id="timer">
+                                タイマー
+                            </label>
+                        </div>
+                        <div name="mode">
+                            <div class="caption">：カスタム設定</div>
+                            <label for="one-one" class="check">
+                                <input type="radio" id="one-one"  name="answer-type" checked>
+                                一問一答
+                            </label>
+                            <label for="one-four" class="check">
+                                <input type="radio" id="one-four" name="answer-type">
+                                四択一答
+                            </label>
+                            <label for="non-correct" class="check">
+                                <input type="checkbox" id="non-correct">
+                                不正解
+                            </label>
+                            <label for="original" class="check">
+                                <input type="checkbox" id="original">
+                                オリジナル
+                            </label>
+                            <label for="past" class="check">
+                                <input type="checkbox" id="past">
+                                過去問
+                            </label>
+                        </div>
+                    </div>
+                    <div class="submit-button">
+                        <input type="submit" value="出題開始" class="btn btn-lg btn-hover">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-1" style="background-color: #fdfdfd;"></div>
+            <div class="col-md-3" style="background-color: #efffff;text-align: center;border-radius: 10px;">
+                <div class="caption"><b>問題一覧・追加</b></div>
+                <a href="yougokeisan.html"><div class="question-tab">用語・計算</div></a>
+                <div class="question-tab">データベース</div>
+                <div class="question-tab">表計算</div>
+                <div class="question-tab">アルゴリズム</div>
+            </div>
+        </div>
+    </div> 
 </body>
 </html>
